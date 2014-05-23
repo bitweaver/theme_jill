@@ -15,9 +15,6 @@
 		<div id="bitmain" class="bit-cols-{if $gBitSystem->isFeatureActive( 'site_right_column' ) && $r_modules && !$gHideModules}2{else}1{/if}">
 			{include file="bitpackage:liberty/display_structure.tpl"}
 			<a style="padding:0;margin:0;border:0;" name="content"></a>
-			{if $pageError}
-				<div class="error">{$pageError}</div>
-			{/if}
 			{include file=$mid}
 			<div class="clear"></div>
 		</div><!-- end #bitmain -->
